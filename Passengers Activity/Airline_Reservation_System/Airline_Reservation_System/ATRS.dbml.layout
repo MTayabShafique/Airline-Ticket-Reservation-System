@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ATRS">
+  <DataContextMoniker Name="/ATRSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4ed97a1a-8d29-4e96-9d98-b8a5e348db8d" absoluteBounds="0.75, 5.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ATRSDataContext/Aircraft" />
+      <nestedChildShapes>
+        <elementListCompartment Id="273bc3c0-642f-4e2f-bbc7-3cd217185f36" absoluteBounds="0.765, 6.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="843d2b43-b22b-4c23-b3b9-b60c5033750e" absoluteBounds="3.5, 1, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/ATRSDataContext/Flight_Detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="267445df-c741-4348-9cc7-0bf7cd1322a7" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e565bcf5-2288-4052-8935-1a39aa580111" absoluteBounds="3.5, 4.875, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/ATRSDataContext/Passenger" />
+      <nestedChildShapes>
+        <elementListCompartment Id="899c4986-181a-43cc-a091-8348987f5085" absoluteBounds="3.515, 5.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af861f77-09a4-47ee-8d23-ce9536f05fb1" absoluteBounds="6.25, 1.5, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/ATRSDataContext/Reserve_Ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a684d4e-898e-4281-b293-b18f20adbc52" absoluteBounds="6.265, 1.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1770af11-d694-4236-b1a2-a1aef844abd9" absoluteBounds="0.75, 1.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/ATRSDataContext/Route" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e14b820-ab83-40b3-b7df-a7f2d00cd75b" absoluteBounds="0.765, 2.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.62621330413662); (3.125 : 5.25121330413662); (3.125 : 2.46235270182292); (3.5 : 2.46235270182292)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ATRSDataContext/Aircraft/Aircraft_Flight_Detail" />
+      <nodes>
+        <classShapeMoniker Id="4ed97a1a-8d29-4e96-9d98-b8a5e348db8d" />
+        <classShapeMoniker Id="843d2b43-b22b-4c23-b3b9-b60c5033750e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.48159912109375); (6.25 : 2.48159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ATRSDataContext/Flight_Detail/Flight_Detail_Reserve_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="843d2b43-b22b-4c23-b3b9-b60c5033750e" />
+        <classShapeMoniker Id="af861f77-09a4-47ee-8d23-ce9536f05fb1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.43350341796875); (7.25 : 6.43350341796875); (7.25 : 3.4631982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ATRSDataContext/Passenger/Passenger_Reserve_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="e565bcf5-2288-4052-8935-1a39aa580111" />
+        <classShapeMoniker Id="af861f77-09a4-47ee-8d23-ce9536f05fb1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.04367635091146); (3.5 : 2.04367635091146)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ATRSDataContext/Route/Route_Flight_Detail" />
+      <nodes>
+        <classShapeMoniker Id="1770af11-d694-4236-b1a2-a1aef844abd9" />
+        <classShapeMoniker Id="843d2b43-b22b-4c23-b3b9-b60c5033750e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

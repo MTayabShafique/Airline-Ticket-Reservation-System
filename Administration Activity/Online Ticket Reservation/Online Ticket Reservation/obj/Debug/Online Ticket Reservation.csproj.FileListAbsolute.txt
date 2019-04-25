@@ -1,0 +1,20 @@
+c:\users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\bin\Debug\Online Ticket Reservation.exe
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\bin\Debug\Online Ticket Reservation.exe.config
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\bin\Debug\Online Ticket Reservation.pdb
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Flight.baml
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\MainWindow.baml
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Flight.g.cs
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\MainWindow.g.cs
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\App.g.cs
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation_MarkupCompile.cache
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.g.resources
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online_Ticket_Reservation.Properties.Resources.resources
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.csproj.GenerateResource.Cache
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.exe
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.pdb
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.csprojResolveAssemblyReference.cache
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Seat.baml
+C:\Users\tayab\documents\visual studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Seat.g.cs
+C:\Users\Rajesh Kumar\Documents\Visual Studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\bin\Debug\Online Ticket Reservation.exe.config
+C:\Users\Rajesh Kumar\Documents\Visual Studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.exe
+C:\Users\Rajesh Kumar\Documents\Visual Studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation\obj\Debug\Online Ticket Reservation.pdb

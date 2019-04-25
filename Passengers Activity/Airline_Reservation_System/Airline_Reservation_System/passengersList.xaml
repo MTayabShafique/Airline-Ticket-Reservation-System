@@ -1,0 +1,9 @@
+﻿<Window x:Class="Airline_Reservation_System.passengersList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="passengersList" Height="300" Width="717">
+    <Grid>
+        <DataGrid x:Name="dataList" HorizontalAlignment="Left" VerticalAlignment="Top" Width="709" Height="219"/>
+
+    </Grid>
+</Window>

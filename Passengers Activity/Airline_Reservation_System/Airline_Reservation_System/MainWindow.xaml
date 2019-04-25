@@ -1,0 +1,19 @@
+﻿<Window x:Class="Airline_Reservation_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Passenger Login" Height="428" Width="606"
+        Icon="images/login.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="images/plane.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="6,129,0,0" VerticalAlignment="Top" Width="109" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="6,78,0,0" VerticalAlignment="Top" Width="109" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Height="29" Margin="154,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.392,0.522"/>
+        <Button x:Name="loginbtn" Content="LOGIN" HorizontalAlignment="Left" Margin="154,193,0,0" VerticalAlignment="Top" Width="129" Height="25" FontWeight="Bold" FontFamily="Times New Roman" FontSize="16" Click="loginClick"/>
+        <Button x:Name="ResetPass" Content="Reset Password?" HorizontalAlignment="Left" Margin="6,193,0,0" VerticalAlignment="Top" Width="109" Height="25" FontWeight="Bold" FontFamily="Times New Roman" Click="ResetPass_Click"/>
+        <Button x:Name="NewAccbtn" Content="Create New Account" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Width="273" Height="25" FontWeight="Bold" FontFamily="Times New Roman" FontSize="16" Click="CreateNewPassenger"/>
+        <PasswordBox x:Name="passWord" HorizontalAlignment="Left" Margin="154,129,0,0" VerticalAlignment="Top" Width="129" Height="29"/>
+
+    </Grid>
+</Window>

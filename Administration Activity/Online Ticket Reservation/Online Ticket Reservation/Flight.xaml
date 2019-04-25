@@ -1,0 +1,40 @@
+﻿<Window x:Class="Online_Ticket_Reservation.Flight"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Flight Status" Height="450" Width="550"  ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\tayab\Documents\Visual Studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation/plane.jpg">
+        </ImageBrush>
+    </Window.Background>
+    <Grid>
+
+        <Grid HorizontalAlignment="Left" Height="390" Margin="0,31,0,0" VerticalAlignment="Top" Width="544">
+            <Label x:Name="flight" Content="Flight No." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="DT" Content="Departure Time." HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="DD" Content="Departure Date." HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="AT" Content="Arrival Time." HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="AD" Content="Arrival Date." HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="CLASS" Content="Class." HorizontalAlignment="Left" Margin="10,227,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="AIRBUS" Content="Airbus No." HorizontalAlignment="Left" Margin="10,258,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="FARE" Content="Fare." HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="FROM" Content="From." HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="95"/>
+            <Label x:Name="TO" Content="To." HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="95"/>
+            <TextBox x:Name="Flighttext" HorizontalAlignment="Left" Height="23" Margin="110,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="DTtext" HorizontalAlignment="Left" Height="23" Margin="110,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="DDtxt" HorizontalAlignment="Left" Height="23" Margin="110,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="ATtxt" HorizontalAlignment="Left" Height="23" Margin="110,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="ADtxt" HorizontalAlignment="Left" Height="23" Margin="110,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="fromtxt" HorizontalAlignment="Left" Height="23" Margin="110,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="totxt" HorizontalAlignment="Left" Height="23" Margin="110,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="classtxt" HorizontalAlignment="Left" Height="23" Margin="110,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="airbstxt" HorizontalAlignment="Left" Height="23" Margin="110,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="faretxt" HorizontalAlignment="Left" Height="23" Margin="110,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        </Grid>
+        <TextBlock FontFamily="Verdana" FontSize="14" FontStyle="Italic" FontWeight="Bold" Text="                                                 Flight Detail">
+            <TextBlock.Foreground>
+                <ImageBrush ImageSource="C:\Users\tayab\Documents\Visual Studio 2013\Projects\Online Ticket Reservation\Online Ticket Reservation/airimg1.jpg"/>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+    </Grid>
+</Window>
