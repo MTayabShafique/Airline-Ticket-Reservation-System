@@ -29,5 +29,5 @@ An Airline Ticket Reservation System based on WPF, C#, SQL
 
 * Passenger List
 <p>
-    <img src="https://github.com/MTayabShafique/Airline-Ticket-Reservation-System/blob/master/views/passenegrdetail.png" />
+    <img src="https://github.com/MTayabShafique/Airline-Ticket-Reservation-System/blob/master/views/passengerdetail.png" />
 </p>
